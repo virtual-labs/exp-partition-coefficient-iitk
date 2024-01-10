@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      "question": "1. How does the polarity of a solute affect its partition coefficient ?",
+      "answer": {
+        "a": "More polar solute has a higher partition coefficient.",
+        "b": "Depends on the polarity of the solvent.",
+        "c": "Polarity of a solute has no effect on the partition coefficient.",
+        "d": "More polar solute has a lower partition coefficient."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. High value of partition coefficient signifies ?",
+      "answer": {
+        "a": "high hydrophobic nature of solute",
+        "b": "high hydrophilic nature of solute",
+        "c": "nothing about hydrophilic/hydrophobic nature of solute",
+        "d": "low hydrophobic nature of solute"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      "question": "3. Hydrophobic drug with high octanol-water partition coefficient will distribute ?",
+      "answer": {
+        "a": "more in blood serum (aqueous phase).",
+        "b": "less in blood serum (aqueous phase).",
+        "c": "less in lipid bilayer (hydrophobic phase).",
+        "d": "Negligibly in lipid bilayer (hydrophobic phase)."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Partition coefficient of a solute between non polar solvent and water is 0.1. Which statement is true ?",
+      "answer": {
+        "a": "Solute is more soluble in nonpolar solvent.",
+        "b": "The solute has equal solubility in both solvents.",
+        "c": "Solute is more soluble in water.",
+        "d": "Insufficient information to predict anything."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +67,23 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which of the following factors affects the magnitude of the partition coefficient for a solute ?",
+      "answer": {
+        "a": "Molecular weight of solute.",
+        "b": "Surface area of solvent.",
+        "c": "pH of the solvent.",
+        "d": "concentration of the solvent."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
