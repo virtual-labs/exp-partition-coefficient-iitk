@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": " 1. Partition coefficient of an element is not a function of?",
-      "answer": {
-        "a": "temperature.",
-        "b": "pressure.",
-        "c": "composition.",
-        "d": "element concentration."
+      "question": " (1)Partition coefficient of an element is not a function of?",
+      "answers": {
+        "a": "temperature",
+        "b": "pressure",
+        "c": "composition",
+        "d": "element concentration"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": " 2. Which type of solute would be expected to have a higher partition coefficient between water and an organic solvent?",
-      "answer": {
-        "a": "Polar solute.",
-        "b": "Nonpolar solute.",
-        "c": "Charged solute.",
-        "d": "Hydrophilic solute."
+      "question": " (2)Which type of solute would be expected to have a higher partition coefficient between water and an organic solvent?",
+      "answers": {
+        "a": "Polar solute",
+        "b": "Nonpolar solute",
+        "c": "Charged solute",
+        "d": "Hydrophilic solute"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -36,12 +36,14 @@
       "difficulty": "beginner"
     },
     {
-      "question": " 3. What is the unit of partition coefficient?",
-      "answer": {
-        "a": "Dimensionless.",
-        "b": "Moles per liter.",
-        "c": "Grams per mole.",
-        "d": "Liter per mole."
+      "question": " (3)What is the unit of partition coefficient?",
+      "answers": {
+        "a": "Dimensionless",
+        "b": "Moles per liter",
+        "c": "Grams per mole",
+        "d": "Liter per mole"
+
+        
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -53,10 +55,10 @@
       "difficulty": "beginner"
     },
     {
-      "question": " 4. Which factor is responsible for an equilibrium to follow the partition law ?",
-      "answer": {
-        "a": "The solutions formed must be concentrated.",
-        "b": "The solute must exist in the liquid state.",
+      "question": " (4)Which factor is responsible for an equilibrium to follow the partition law?",
+      "answers": {
+        "a": "The solutions formed must be concentrated",
+        "b": "The solute must exist in the liquid state",
         "c": "The temperature must be constant.",
         "d": "The solute must be able to react with one of the solvents."
       },
@@ -70,12 +72,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": " 5. What happens to the partition coefficient of a solute when the pH of the solvent is changed ?",
-      "answer": {
-        "a": "Depends on the nature of the solute and solvent.",
-        "b": "increases.",
-        "c": "decreases.",
-        "d": "remains constant."
+      "question": " (5)What happens to the partition coefficient of a solute when the pH of the solvent is changed?",
+      "answers": {
+        "a": "Depends on the nature of the solute and solvent",
+        "b": "increases ",
+        "c": "decreases",
+        "d": "remains constant"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -86,6 +88,5 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     }
-    
   ]
 }
