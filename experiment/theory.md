@@ -1,5 +1,5 @@
 Nernst distribution law states that at constant temperature, when a solute is allowed to distribute between two immiscible solvents in contact with each other, at equilibrium the ratio of the concentration of the solute in two solvent layers is constant. When a solute is shaken in two immiscible liquids, then the solute is found to be distributed between the liquids in a definite manner, if the solute is soluble in each of the solvent. According to distribution law, the distribution co-efficient (kd) at a particular temperature is given by<br>
-<img src="images/images1.png"><br>
+<img src="images/image1.png"><br>
 k<sub>d</sub>=C<sub>1</sub>/C<sub>2</sub>					(1)<br>
 
 where C<sub>1</sub> and C<sub>2</sub> represent concentration of solute in water and organic layer respectively. The partition coefficient relates to the same molecular species in each phase i.e. the solute molecules in each solution phase are in the same state of association.<br>
