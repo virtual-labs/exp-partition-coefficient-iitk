@@ -1,10 +1,10 @@
 <b> Materials & Reagents Required</b><br>
-A.	Separating funnel (500 mL)
-B.	Volumetric flask (250 mL)
-C.	Measuring Cylinder (100mL)
-D.	Burette (25 mL)
-E.	Pipette (1mL & 5mL)
-F.	Conical flask (250 mL)
+A.	Separating funnel (500 mL)<br>
+B.	Volumetric flask (250 mL)<br>
+C.	Measuring Cylinder (100mL)<br>
+D.	Burette (25 mL)<br>
+E.	Pipette (1mL & 5mL)<br>
+F.	Conical flask (250 mL)<br>
 <b> Procedure in laboratory diagram</b>
 <img src="images/image2.png"><br>
 <img src="images/image3.png"><br>
