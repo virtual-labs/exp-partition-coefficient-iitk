@@ -6,9 +6,9 @@ D.	Burette (25 mL)<br>
 E.	Pipette (1mL & 5mL)<br>
 F.	Conical flask (250 mL)<br><br>
 <b> Procedure in laboratory diagram</b><br>
-<img src="images/image2.png"><br>
-<img src="images/image3.png"><br>
-<img src="images/image4.png"><br>
+<img src="images/image2.png"><br><br>
+<img src="images/image3.png"><br><br>
+<img src="images/image4.png"><br><br>
 <img src="images/image5.png"><br><br>
 <b>Procedure in laboratory</b><br>
 <img src="images/image6.png"><br><br>
