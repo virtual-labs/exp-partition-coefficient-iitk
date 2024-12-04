@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": " (1)Partition coefficient of an element is not a function of?",
+      "question": " (1)Partition coefficient of a solute in two immiscible solvents is INDEPENDENT of?",
       "answers": {
         "a": "temperature",
         "b": "pressure",
-        "c": "composition",
-        "d": "element concentration"
+        "c": "volumes of the solvents",
+        "d": "total solute element concentration"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -55,12 +55,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": " (4)Which factor is responsible for an equilibrium to follow the partition law?",
+      "question": " (4)What is the essential condition for a solute partitioned in two solvents to follow the Nernst distributon law?",
       "answers": {
-        "a": "The solutions formed must be concentrated",
-        "b": "The solute must exist in the liquid state",
-        "c": "The temperature must be constant.",
-        "d": "The solute must be able to react with one of the solvents."
+        "a": "The solvents must be miscible",
+        "b": "The solute should completely dissolve in each solvent",
+        "c": "The solute should not associate in either solvent.",
+        "d": "None of the above."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -68,16 +68,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": " (5)What happens to the partition coefficient of a solute when the pH of the solvent is changed?",
+      "question": " (5)What is the condition for which the partition function is equal to its distribution function for a solute in the two solvents?",
       "answers": {
-        "a": "Depends on the nature of the solute and solvent",
-        "b": "increases ",
-        "c": "decreases",
-        "d": "remains constant"
+        "a": "The solute exists is in the same form in both solvents",
+        "b": "The two solvents have the same molecular weight ",
+        "c": "The two solvents have the same density",
+        "d": "The solute does not have polar groups"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",

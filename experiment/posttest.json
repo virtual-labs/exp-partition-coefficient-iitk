@@ -59,7 +59,7 @@
         "a": "Solute is more soluble in nonpolar solvent.",
         "b": "The solute has equal solubility in both solvents.",
         "c": "Solute is more soluble in water.",
-        "d": "Insufficient information to predict anything.."
+        "d": " Solute is less dense than water"
 
       },
       "explanations": {
@@ -72,12 +72,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "(5)Which of the following factors affects the magnitude of the partition coefficient for a solute?",
+      "question": "(5)The partition coefficient of a solute in two solvents can be:",
       "answers": {
-        "a": "Molecular weight of solute.",
-        "b": "Surface area of solvent.",
-        "c": "pH of the solvent.",
-        "d": "concentration of the solvent."
+        "a": "Between 0 and 1.",
+        "b": "Between -1 and 1.",
+        "c": "Between 0 and infinity.",
+        "d": "Between -infinity and infinity."
 
       },
       "explanations": {
