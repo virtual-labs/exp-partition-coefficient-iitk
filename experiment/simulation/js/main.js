@@ -40,7 +40,7 @@ var aqlayer  = document.querySelector("#aquaslayer")
 function pourcylinder() {
     if (f == 1) {
         
-        steps.innerHTML = "click on Acidic Acide Beaker"
+        steps.innerHTML = "click on Acetic Acid Beaker"
         mcylender.style.transform = "translate(-330%,-170%) rotate(-80deg)";
         sol.style.transform = "translate(-440%,-1000%) rotate(-80deg)";
         // setTimeout(rev,1000);
@@ -78,7 +78,7 @@ function pourcylinder() {
     },1500);
        
         f+=1*/
-        steps.innerHTML = "click Distilt Water Beaker"
+        steps.innerHTML = "click Distilled Water Beaker"
         console.log("bye");
         mcylender.style.transform = "translate(-330%,-170%) rotate(-80deg)";
         sol.style.transform = "translate(-440%,-1000%) rotate(-80deg)";
@@ -238,7 +238,7 @@ function diswater() {
 function next() {
     if (f == 6) {
         
-        steps.innerHTML = "Turn on Flask Shaker machine and shake it around 60 minuts"
+        steps.innerHTML = "Turn on Flask Shaker machine and shake it around 60 minutes"
         btnl.style.visibility = "hidden"
         mcylender.style.visibility = "hidden"
         acid.style.visibility = "hidden"
