@@ -1,306 +1,247 @@
-//Your JavaScript goes in here
-// // all assign variables
+
+var weingimg=document.querySelector("#hweingimage")
+var conicalflaskimg=document.querySelector("#hemptyconicalflask")
+var roundflaskimg=document.querySelector("#hemptyroundflsk")
+var roundflask1=document.querySelector("#hroundflask1")
+var roundflask2=document.querySelector("#hroundflask2")
+var aceticacideimg=document.querySelector("#haceticacidimage")
+var buretimag=document.querySelector("#hburetimage")
+var fiterstandimg=document.querySelector("#hfilterstand")
+var mesurimg=document.querySelector("#hmasurcylenderimage")
+var sperchulaimg=document.querySelector("#hspertulaimage")
+var emptypatrydiskimg=document.querySelector("#hemptypatrydiskimage")
+var activechr=document.querySelector("#hpetrydiskchar")
+var kippiimg=document.querySelector("#hkippiimage")
+var indicatorimg=document.querySelector("#hactivatordroperimage")
+var step1=document.querySelector("#beaker")
+var step1=document.querySelector("#beaker1")
+
+var hovt = document.querySelector("#hovt")
+
+var hcounter=0
+/*var hvalue="none"
+var body=document.querySelector("#bod")
+
+body.addEventListener("mouseover",function(){
+    steper()
+})*/
 
 
-var mcylender = document.querySelector("#gcylinder")
-var sol = document.querySelector("#solution")
-var drp1 = document.querySelector("#drop1")
 
-var btnl = document.querySelector("#beaker1_butanol")
-var sol = document.querySelector("#solution")
-var drp = document.querySelector("#drop")
+weingimg.addEventListener("mouseenter",function(){
+    hcounter+=1;
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Weighing balance "
+    hovt.style.top="60%"
+    hovt.style.left="5%"
 
-var acid = document.querySelector("#acetic")
-var wtr = document.querySelector("#water")
-var mchn = document.querySelector("#machine")
-var fsol = document.querySelector("#fsolution")
-var fsol1 = document.querySelector("#fsolution1")
-var fsol2 = document.querySelector("#fsolution2")
-var keep = document.querySelector("#kippi")
-var flask2 = document.querySelector("#flaskwithsol")
-var flask1 = document.querySelector("#flask")
-var machineUP = document.querySelector("#machineup")
-var machine1 = document.querySelector("#machineup1")
-var machine2 = document.querySelector("#machineup2")
-var machineLP = document.querySelector("#machinelp")
-var steps = document.querySelector("#step")
-var powerbutton = document.querySelector("#powerbtn")
-var speedbutton = document.querySelector("#speedbtn")
-var rdng = document.querySelector("#reading")
-var mxdsol = document.querySelector("#mixedsol")
-var cnflask1 = document.querySelector("#conicalflaskE1")
-var cnflask2 = document.querySelector("#conicalflaskE2")
-var pippetf = document.querySelector("#pippet")
-var orglayer = document.querySelector("#organiclayer")
-var aqlayer  = document.querySelector("#aquaslayer")
+})
+weingimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+conicalflaskimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Conical flask (100 mL) "
+    hovt.style.top="34%"
+    hovt.style.left="20%"
 
-// //  cylinder into flask
+})
+conicalflaskimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+roundflaskimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Round-Flask"
+    hovt.style.top="30%"
+    hovt.style.left="25%"
 
+})
+roundflaskimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+roundflask1.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Oxalic Acid (0.1 N)"
+    hovt.style.top="28%"
+    hovt.style.left="35%"
 
-function pourcylinder() {
-    if (f == 1) {
-        
-        steps.innerHTML = "click on Acetic Acid Beaker"
-        mcylender.style.transform = "translate(-330%,-170%) rotate(-80deg)";
-        sol.style.transform = "translate(-440%,-1000%) rotate(-80deg)";
-        // setTimeout(rev,1000);
-        setTimeout(function () { 
-            drp1.style.visibility = "visible"
-            drp1.style.transform = "translate(0%,180%)"
-            sol.style.visibility = "hidden"
-            setTimeout(function() {
-                fsol.style.visibility = "visible"
-            },800)
-            
-            
-        }, 2000)
-        f += 1
-        setTimeout(function () {
-            sol.style.visibility = "hidden";
+})
+roundflask1.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+roundflask2.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Sodium hydroxide"
+    hovt.style.top="28%"
+    hovt.style.left="42%"
 
-        }, 1000);
+})
+roundflask2.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+aceticacideimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Acetic Acid "
+    hovt.style.top="37%"
+    hovt.style.left="48%"
 
-        setTimeout(pourcylinderreverse, 3000);
-        function pourcylinderreverse() {
-            drp1.style.visibility = "hidden";
-            gcylinder.style.transform = "translate(0%,0%) rotate(0deg)"
-            sol.style.visibility = "hidden";
-            sol.style.transform = "translate(0%,0%) rotate(0deg)"
-        }
+})
+aceticacideimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+buretimag.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Burette (50 mL)"
+    hovt.style.top="25%"
+    hovt.style.left="60%"
 
+})
+buretimag.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+fiterstandimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Filter-Stand "
+    hovt.style.top="28%"
+    hovt.style.left="70%"
+
+})
+fiterstandimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+mesurimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Measuring Cylinder (10 mL)"
+    hovt.style.top="38%"
+    hovt.style.left="10%"
+
+})
+mesurimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+sperchulaimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Spatula "
+    hovt.style.top="75%"
+    hovt.style.left="30%"
+
+})
+sperchulaimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+emptypatrydiskimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Petri dish"
+    hovt.style.top="75%"
+    hovt.style.left="38%"
+
+})
+emptypatrydiskimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+activechr.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Activated Charcoal"
+    hovt.style.top="75%"
+    hovt.style.left="44%"
+
+})
+activechr.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+kippiimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Funnel"
+    hovt.style.top="75%"
+    hovt.style.left="55%"
+
+})
+kippiimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+indicatorimg.addEventListener("mouseenter",function(){
+    hcounter+=1
+    
+    hovt.style.transitionDuration="0.5s"
+    hovt.style.visibility="visible"
+    hovt.innerText="Phenolphthalein indicator"
+    hovt.style.top="75%"
+    hovt.style.left="80%"
+
+})
+indicatorimg.addEventListener("mouseout",function(){
+    hovt.style.transitionDuration="0s"
+    hovt.style.visibility="hidden"
+})
+
+/*var s=0;
+function next(){
+    if(s==0){
+        step1.style.visibility="hidden";
     }
-    else if (f == 3) {
-        /*mcylender.style.transform="translate(-130%,-30%) rotate(-60deg)"
-        setTimeout( function rev(){
-            
-             gcylinder.style.transform="translate(0%,0%) rotate(0deg)"
-
-    },1500);
-       
-        f+=1*/
-        steps.innerHTML = "click Distilled Water Beaker"
-        console.log("bye");
-        mcylender.style.transform = "translate(-330%,-170%) rotate(-80deg)";
-        sol.style.transform = "translate(-440%,-1000%) rotate(-80deg)";
-        // setTimeout(rev,1000);
-        setTimeout(function () {
-            drp1.style.visibility = "visible";
-            drp1.style.transform = "translate(0%,180%)"
-            sol.style.visibility = "hidden";
-            setTimeout(function() {
-                fsol1.style.visibility = "visible"
-            },1500)
-            
-        }, 1500)
-        f += 1
-        setTimeout(function () {
-            sol.style.visibility = "hidden";
-
-        }, 1500);
-
-        setTimeout(pourcylinderreverse, 3000);
-        function pourcylinderreverse() {
-            drp1.style.visibility = "hidden";
-            gcylinder.style.transform = "translate(0%,0%) rotate(0deg)"
-            sol.style.visibility = "hidden";
-            sol.style.transform = "translate(0%,0%) rotate(0deg)"
-
-
+}*/
+/*function steper(){
+    if(hcounter==14){
+        console.log(hcounter)
+        if(hvalue=="none"){
+            console.log(hcounter)
+            f=0
+            messcounter=1
+            update()
+            hvalue="done"
         }
-
-    }
-    else if (f == 5) {
-        /*mcylender.style.transform="translate(-130%,-30%) rotate(-60deg)"
-        setTimeout(rev,1500);
-        function rev(){
-            mcylender.style.transform="translate(0%,0%) rotate(0deg)"
-        }
-        f+=1*/
-        console.log("bye");
-        steps.innerHTML = "click on NEXT button"
-        mcylender.style.transform = "translate(-330%,-170%) rotate(-80deg)";
-        sol.style.transform = "translate(-440%,-1000%) rotate(-80deg)";
-        // setTimeout(rev,1000);
-        setTimeout(function () {
-            drp1.style.visibility = "visible";
-            drp1.style.transform = "translate(0%,80%)"
-            sol.style.visibility = "hidden";
-            setTimeout(function() {
-                fsol2.style.visibility = "visible"
-            },1000)
-            
-
-        }, 1500)
-        f += 1
-        setTimeout(function () {
-            sol.style.visibility = "hidden";
-
-        }, 1500);
-
-        setTimeout(pourcylinderreverse, 3000);
-        function pourcylinderreverse() {
-            drp1.style.visibility = "hidden";
-            gcylinder.style.transform = "translate(0%,0%) rotate(0deg)"
-            sol.style.visibility = "hidden";
-            sol.style.transform = "translate(0%,0%) rotate(0deg)"
-
-        }
-
-    }
-}
-console.log(f)
-
-
-// beaker1 into cylinder
-
-
-
-
-
-var f = 0
-function butanol1() {
-    if (f == 0) {
-       
-        steps.innerHTML = "click on graduated cylinder"
-        btnl.style.transform = "translate(-40%,-100%) rotate(-60deg)"
-        setTimeout(reverse, 1000);
-        function reverse() {
-            btnl.style.transform = "translate(0%,0%) rotate(0deg)"
-           
-        }
-
-        setTimeout(function solution() {
-            drp.style.visibility = "visible"
-            drp.style.transform = " translate(0%,150%)"
-            sol.style.visibility = "visible"
-            
-        }, 1200)
-
-        setTimeout(function drop() {
-            drp.style.visibility = "hidden"
-
-        }, 1500)
-        f += 1
-    }
-
-}
-
-
-// beaker2 into cylinder
-
-function acedic() {
-    if (f == 2) {
-        steps.innerHTML = "click on graduated cylinder"
-        acid.style.transform = "translate(-150%,-90%) rotate(-50deg)"
-        setTimeout(rev1, 1500);
-        function rev1() {
-            acid.style.transform = "translate(0%,0%) rotate(0deg)"
-
-        }
-        setTimeout(function solution() {
-            sol.style.visibility = "visible"
-            drp.style.visibility = "visible"
-        }, 1200)
-
-        setTimeout(function drop() {
-            drp.style.visibility = "hidden"
-
-        },1500)
-        f += 1;
-    }
-}
-
-//beaker3 into cylinder
-
-function diswater() {
-    if (f == 4) {
-        steps.innerHTML = "click on graduated cylinder"
-        wtr.style.transform = "translate(-260%,-110%) rotate(-50deg)"
-        setTimeout(reva, 1500);
-        function reva() {
-            wtr.style.transform = "translate(0%,0%) rotate(0deg)"
-        }
-        setTimeout(function solution() {
-            sol.style.visibility = "visible"
-            drp.style.visibility = "visible"
-        }, 1200)
-
-        setTimeout(function drop() {
-            drp.style.visibility = "hidden"
-
-        }, 1500)
-        f += 1
-    }
-}
-
-
-
-function next() {
-    if (f == 6) {
-        
-        steps.innerHTML = "Turn on Flask Shaker machine and shake it around 60 minutes"
-        btnl.style.visibility = "hidden"
-        mcylender.style.visibility = "hidden"
-        acid.style.visibility = "hidden"
-        wtr.style.visibility = "hidden"
-        sol.style.visibility = "hidden"
-        fsol.style.visibility = "hidden"
-        fsol1.style.visibility = "hidden"
-        fsol2.style.visibility = "hidden"
-        flask1.style.visibility = "hidden"
-        flask2.style.visibility = "visible"
-        
-
-      
-
-
-        btnl.style.transitionDuration = "0s"
-        mcylender.transitionDuration = "0s"
-        wtr.style.transitionDuration = "0s"
-        acid.style.transitionDuration = "0s"
-        sol.style.transitionDuration = "0s"
-        gcylinder.style.transitionDuration = "0s"
-        flask1.style.transitionDuration = "0s"
-        fsol2.style.transitionDuration = "0s"
-        fsol1.style.transitionDuration = "0s"
-        fsol.style.transitionDuration = "0s"
-        
-        
-        setTimeout(function () {
-            flask2.style.transform = "translate(0% ,-100%)"
-            
-            setTimeout(function (){
-                flask2.style.transform = "translate(-290% ,-100%)"
-            },1000)
-
-
-            setTimeout(function(){
-                // machineUP1.style.visibility = "hidden"
-                // flask2.style.visibility = "hidden"
-
-               setTimeout(function(){
-                // machineUP.style.visibility = "visible"
-               },900)
-
-            },1000)
-        }, 1000)
-
-
-        f += 1
     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
+}*/
 
 
