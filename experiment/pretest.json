@@ -2,12 +2,38 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": " (1)Partition coefficient of a solute in two immiscible solvents is INDEPENDENT of?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "temperature",
+        "b": "pressure",
+        "c": "volumes of the solvents",
+        "d": "total solute element concentration"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " (2)Which type of solute would be expected to have a higher partition coefficient between water and an organic solvent?",
+      "answers": {
+        "a": "Polar solute",
+        "b": "Nonpolar solute",
+        "c": "Charged solute",
+        "d": "Hydrophilic solute"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " (3)What is the unit of partition coefficient?",
+      "answers": {
+        "a": "Dimensionless",
+        "b": "Moles per liter",
+        "c": "Grams per mole",
+        "d": "Liter per mole"
+
+        
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,20 +45,27 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": " (4)What is the essential condition for a solute partitioned in two solvents to follow the Nernst distributon law?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The solvents must be miscible",
+        "b": "The solute should completely dissolve in each solvent",
+        "c": "The solute should not associate in either solvent.",
+        "d": "None of the above."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " (5)What is the condition for which the partition function is equal to its distribution function for a solute in the two solvents?",
+      "answers": {
+        "a": "The solute exists is in the same form in both solvents",
+        "b": "The two solvents have the same molecular weight ",
+        "c": "The two solvents have the same density",
+        "d": "The solute does not have polar groups"
       },
-      "correctAnswer": "c",
+    
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
