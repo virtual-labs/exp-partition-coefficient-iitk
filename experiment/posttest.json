@@ -9,12 +9,7 @@
         "c": "Polarity of a solute has no effect on the partition coefficient",
         "d": "More polar solute has a lower partition coefficient"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -26,12 +21,7 @@
         "c": "nothing about hydrophilic/hydrophobic nature of solute",
         "d": "low hydrophobic nature of solute"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+    
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -62,12 +52,7 @@
         "d": " Solute is less dense than water"
 
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -80,12 +65,7 @@
         "d": "Between -infinity and infinity."
 
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     }

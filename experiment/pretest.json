@@ -9,12 +9,7 @@
         "c": "volumes of the solvents",
         "d": "total solute element concentration"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -26,12 +21,7 @@
         "c": "Charged solute",
         "d": "Hydrophilic solute"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -62,12 +52,7 @@
         "c": "The solute should not associate in either solvent.",
         "d": "None of the above."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -79,12 +64,7 @@
         "c": "The two solvents have the same density",
         "d": "The solute does not have polar groups"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+    
       "correctAnswer": "a",
       "difficulty": "beginner"
     }
