@@ -1,0 +1,27 @@
+
+/home/runner/work/exp-partition-coefficient-iitk/exp-partition-coefficient-iitk/experiment/simulation/js/main.js
+     1:7   warning  'experimentStates' is assigned a value but never used          no-unused-vars
+   110:10  warning  'toggleVoice' is defined but never used                        no-unused-vars
+   175:10  warning  'butanol1' is defined but never used                           no-unused-vars
+   192:10  warning  'pourcylinder' is defined but never used                       no-unused-vars
+   218:10  warning  'acedic' is defined but never used                             no-unused-vars
+   235:10  warning  'diswater' is defined but never used                           no-unused-vars
+   252:10  warning  'next' is defined but never used                               no-unused-vars
+   308:10  warning  'power' is defined but never used                              no-unused-vars
+   410:10  warning  'completeTitration' is defined but never used                  no-unused-vars
+   417:10  warning  'separateSolution' is defined but never used                   no-unused-vars
+   518:10  warning  'createExtractionStream' is defined but never used             no-unused-vars
+   845:10  warning  'titrateBothFlasks' is defined but never used                  no-unused-vars
+   986:10  warning  'createParticleEffects' is defined but never used              no-unused-vars
+  1016:10  warning  'createSparkleEffects' is defined but never used               no-unused-vars
+  1046:10  warning  'createCelebrationEffects' is defined but never used           no-unused-vars
+  1079:10  warning  'createActivatorDropsForBothFlasks' is defined but never used  no-unused-vars
+  1136:10  warning  'createIndicatorDrops' is defined but never used               no-unused-vars
+  1165:10  warning  'simulateTitration' is defined but never used                  no-unused-vars
+  1421:10  warning  'createCelebrationEffect' is defined but never used            no-unused-vars
+  1452:10  warning  'repeatExperiment' is defined but never used                   no-unused-vars
+  1458:10  warning  'washCylinder' is defined but never used                       no-unused-vars
+  1610:10  warning  'createWashSplash' is defined but never used                   no-unused-vars
+
+✖ 22 problems (0 errors, 22 warnings)
+

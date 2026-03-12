@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Partition Coefficient Experiment</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Instruction Panel -->
+        <div id="instruction">
+            <h1>Instruction:</h1>
+            <h3 id="step">Click on Butanol beaker</h3>
+        </div>
+
+        <!-- Background -->
+        <div id="backg">
+            <img id="lab" src="images/my-lab1.png" alt="Lab Background">
+        </div>
+
+        <!-- Main Experiment Setup -->
+        <div id="beaker">
+
+            <!-- Chemicals and Beakers -->
+            <img id="gcylinder" onclick="pourcylinder()" src="images/measuring-cylinder.png" alt="Graduated Cylinder">
+            <img id="beaker1_butanol" onclick="butanol1()" src="images/butanol.png" alt="Butanol Beaker">
+            <img id="solution" src="images/measuring-cylinder-solution.png" alt="Solution">
+            <img id="acetic" onclick="acedic()" src="images/aceticacid.png" alt="Acetic Acid Beaker">
+            <img id="water" onclick="diswater()" src="images/dwater.png" alt="Distilled Water">
+            <img id="drop" src="images/drop.png" alt="Drop Animation">
+            <img id="drop1" src="images/drop.png" alt="Drop Animation 2">
+            <img id="wash-water" src="images/drop.png" alt="Wash Water Animation">
+            <img id="wash-stream" src="images/drop.png" alt="Wash Stream Animation">
+
+            <!-- Shaker Setup -->
+            <img src="images/machineLP.png" alt="Shaker Base" id="machinelp">
+            <img src="images/machineUP.png" alt="Shaker Lid" id="machineup">
+            <img src="images/machineup1.png" alt="Shaker Lid Mid-State" id="machineup1">
+            <img src="images/machineUP2.png" alt="Shaker Lid Shaking" id="machineup2">
+            <img src="images/powerbutton.png" onclick="power()" alt="Power Button" id="powerbtn">
+
+            <!-- Flask & Intermediate Solutions -->
+            <img id="flask" src="images/flask.png" alt="Empty Flask">
+            <img id="cork" src="images/cork.png" alt="Cork">
+            <img src="images/sol1.png" id="fsolution" alt="Solution 1">
+            <img src="images/sol2.png" id="fsolution1" alt="Solution 2">
+            <img src="images/sol3.png" id="fsolution2" alt="Solution 3">
+
+            <!-- After Shaking -->
+            <img src="images/organicsolution.png" alt="Mixed Solution" id="mixedsol">
+            <img src="images/conicalflask.png" alt="Conical Flask 1" id="conicalflaskE1">
+            <img src="images/conicalflask.png" alt="Conical Flask 2" id="conicalflaskE2">
+            <img src="images/pipette.png" onclick="separateSolution()" alt="Pipette" id="pippet">
+
+            <!-- Composite Activator Bottle (Activator + Activator Drop) -->
+            <img id="activatorbottelimage" src="images/activator.png" alt="Activator Base" style="visibility: hidden;">
+            <img id="activatordroperimage" src="images/activator drop.png" alt="Activator Drop" onclick="addIndicator()" style="visibility: hidden;">
+
+            <!-- Separated Layers -->
+            <img src="images/sol1.png" id="organiclayer" alt="Organic Layer">
+            <img src="images/sol1.png" id="aquaslayer" alt="Aqueous Layer">
+
+            <!-- Titration & Drop Effects -->
+            <img src="images/buretstand.png" id="burette" alt="Buretstand">
+            <img src="images/indicator-drop.png" id="indicatorDrop" alt="Indicator Drop">
+            <img src="images/flask.png" id="titrationFlask" alt="Titration Flask">
+            <img src="images/sol1.png" id="solutionClear" alt="Clear Solution">
+            <img src="images/base.png" id="solutionPink" alt="Pink Solution">
+
+            <!-- Progress Bar -->
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+                <div id="progress-text"></div>
+            </div>
+
+            <!-- Calculation Section -->
+            <div id="calculation">
+                <h3>Partition Coefficient Calculation</h3>
+                <p>Volume in Butanol: <span id="volume1"></span> mL</p>
+                <p>Volume in Water: <span id="volume2"></span> mL</p>
+                <p>Concentration in Butanol: <span id="conc1"></span> M</p>
+                <p>Concentration in Water: <span id="conc2"></span> M</p>
+                <p>Partition Coefficient (Kd): <strong><span id="kd"></span></strong></p>
+            </div>
+
+            <!-- Wash Button -->
+            <button onclick="washCylinder()" id="wash-btn">WASH</button>
+            
+            <!-- Next Button -->
+            <button onclick="next()" id="next">NEXT</button>
+            
+            <!-- Voice Control Toggle -->
+            <button onclick="toggleVoice()" id="voice-toggle">🔊 VOICE ON</button>
+            
+            <!-- New Titration System Elements -->
+            <div id="uu1">1</div>
+            <div id="uu2">2</div>
+            <img id="brstand5f" src="images/buretstand.png" alt="Burette Stand">
+            <img id="f1" src="images/conicalflask.png" alt="Flask 1">
+            <img id="f2" src="images/conicalflask.png" alt="Flask 2">
+            <img id="knob5f" src="images/drop.png" alt="Knob">
+            <img id="droptaitration" src="images/drop.png" alt="Titration Drop">
+            <img id="p1" src="images/base.png" alt="Pink Solution 1">
+            <img id="p2" src="images/base.png" alt="Pink Solution 2">
+            
+            <!-- New Phenolphthalein Dropper System Elements -->
+            <div id="s1">1</div>
+            <div id="s2">2</div>
+            <img id="vflk1" src="images/conicalflask.png" alt="Virtual Flask 1">
+            <img id="vflk2" src="images/conicalflask.png" alt="Virtual Flask 2">
+            <img id="act12" src="images/activator.png" alt="Activator Bottle">
+            <img id="activaterdroper" src="images/activator drop.png" alt="Activator Dropper">
+            <img id="drop0" src="images/drop.png" alt="Drop 0">
+            <img id="drop1" src="images/drop.png" alt="Drop 1">
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
